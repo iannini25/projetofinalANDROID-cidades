@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.Cidades" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
