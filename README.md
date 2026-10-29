@@ -22,12 +22,31 @@ Nao precisa de cadastro nem de chave.
 |---------|-----------|-------------------|
 | ![detalhe](prints/detalhe.png) | ![favoritas](prints/favoritas.png) | ![erro](prints/erro.png) |
 
+## Protótipo no Figma
+
+**[Abrir o protótipo visual do aplicativo Cidades no Figma](https://www.figma.com/design/rxn8PTYtuaUo4qL3lDsNg7)**
+
+Protótipo editável desenvolvido para documentar o fluxo do aplicativo Android em Kotlin/Jetpack Compose e os requisitos do projeto final. Contém oito telas/estados:
+
+1. Login;
+2. Cadastro;
+3. Busca de cidades com lista de resultados;
+4. Detalhes de uma cidade e opção de favoritar;
+5. Cidades favoritas;
+6. Perfil com botão Sair;
+7. Erro de conexão;
+8. Carregamento dos dados.
+
+O desenho utiliza a linguagem Material 3, inclui os três destinos da navegação inferior (Buscar, Favoritas e Perfil) e elementos reutilizáveis. **Trata-se de um protótipo visual editável, ainda sem ligações clicáveis entre as telas**; o fluxo funcional está implementado no aplicativo Android.
+
+**Contribuição:** José Augusto — [corexemp-spec](https://github.com/corexemp-spec), prototipação de telas e validação dos requisitos.
+
 ## Divisao de tarefas
 
 | Integrante | O que fez |
 |------------|-----------|
 | Bernardo Iannini | Codigo do app: network, data (Room, usuarios, favoritas, Repository), viewmodel e telas/navegacao |
-| Jose Augusto | Prototipo das telas no Figma |
+| Jose Augusto | [Protótipo visual editável no Figma](https://www.figma.com/design/rxn8PTYtuaUo4qL3lDsNg7), fluxo das telas e [análise/validação técnica](VALIDACAO_PROJETO.md) |
 
 ## O que aprendemos
 
